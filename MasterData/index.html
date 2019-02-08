@@ -1,0 +1,142 @@
+<html>
+
+<head>
+	<title>Effort Planner Tool</title>
+	<link rel="stylesheet" href="./bootstrap-3.4.0/css/bootstrap.css">
+	<link rel="stylesheet" href="./css/main.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="./bootstrap-3.4.0/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="./js/app.js"></script>
+	<script type="text/javascript" src="./js/config.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+	<script type="text/javascript" src="./js/barChart.js"></script>
+	<script src="./jquery-ui-1.12.1/jquery-ui.min.js"></script>
+	<link rel="stylesheet" href="./jquery-ui-1.12.1/jquery-ui.min.css">
+	
+</head>
+
+<body>
+	<div class="container-fluid mainContainer">
+		<div id="banner_top" class="banner">
+			<section class="bosch-logo-strip"></section>
+		</div>
+		<div id="masterdata-content" class="masterdata-content">
+			<div id="menubar">
+				<nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+					<p class="navbar-text heading strong">MASTER DATA</p>
+					<div id="bosch_icon" class="bosch_icon_div">
+						<span class="bosch_icon"></span>
+					</div>
+				</nav>
+			</div>
+
+			<div id="login-container" class="container login-container">
+				<div id="login-page-text" class="login-page-text">
+					<span id="login_text" class="login_text">Login to Master Data</span>
+				</div>
+				<div id="login-page-content" class="login-page-content">
+					<div id="login-content" class="login-content container">
+						<div id="user_name" class="user_name form-group">
+							<label for="username" id="username_label" class="username_label">User Name:</label>
+							<input type="text" name="" id="username" class="username form-control" placeholder="User Name">
+						</div>
+						<div id="password_div" class="password_div form-group">
+							<label for="password" id="password_label" class="password_label">Password:</label>
+							<input type="password" name="password" id="password" class="password form-control" placeholder="Password">
+						</div>
+						<div id="submit_div" class="submit_div form-group">
+							<input type="button" value="Log In" id="login_btn" class="login_btn btn btn-primary">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="home-container" class="container-fluid home-container">
+				<div id="leftNavMenu" class="leftNavMenu">
+					<a href="#">> Dashboard</a>
+					<a href="#">> About Tool</a>
+				</div>
+				<div id="dashboad_div" class="dashboard">
+					<div id="filter-container" class="filter-container container">
+						<div id="content-heading" class="content-heading">
+							<h1 id="dashboard_hdr" class="dashboard_hdr display-3">Dashboard</h1>
+						</div>
+						<div id="dept-filter" class="dept-filter">
+							<div id="dept_lbl" class="dept_lbl">
+								<p class="float_left lable_hd">Department:</p>
+							</div>
+							<div id="dept_dropdown" class="dept_dropdown custom-carets">
+								<div class="dropdown float_left">
+									<button class="btn btn-default dropdown-toggle" id="deptDropDown" type="button" aria-expanded="false">Select<span
+										 class="caret"></span>
+									</button>
+									<ul class="single-dropdown-menu">
+										<li><a href="#" onclick='masterDataApp.setValueToDropDown("deptDropDown","ESD-PP3")'>ESD-PP3</a></li>
+										<li><a href="#" onclick='masterDataApp.setValueToDropDown("deptDropDown","ESP")'>ESP</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div id="pl-filter" class="pl-filter">
+							<div id="pl_lbl" class="pl_lbl">
+								<p class="float_left lable_hd">Product Lines:</p>
+							</div>
+							<div id="pl_dropdown" class="pl_dropdown custom-carets">
+								<div id="plDropDown_div" class="dropdown float_left">
+									<button class="btn btn-default dropdown-toggle" id="plDropDown" type="button" aria-expanded="false">Select
+										<span class="caret"></span>
+									</button>
+									<ul class="multi-dropdown-menu" id="multi-dropdown-menu">
+										<li>
+											<div id="all_plOption" class="list_div">
+												<input type="checkbox" id="all-productLines" name="checked" checked />
+												<label for="all">All</label>
+											</div>
+										</li>
+										<li>
+											<div class="list_div">
+												<input type="checkbox" id="RB-USS" name="RB-USS" class="plOption" checked>
+												<label for="RB-USS" class="plOption">RB-USS</label>
+											</div>
+										</li>
+										<li>
+											<div class="list_div">
+												<input type="checkbox" id="RB-VI" name="RB-vi" class="plOption" checked>
+												<label for="RB-VI" class="plOption">RB-VI</label>
+											</div>
+										</li>
+										<li>
+											<div class="list_div">
+												<input type="checkbox" id="RB-RA" name="RB-RA" class="plOption" checked>
+												<label for="RB-RA" class="plOption">RB-RA</label>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div id="button-container" class="btn-container">
+							<button type="button" id="search_btn" class="btn btn-primary">Search</button>
+							<button type="button" id="reset_btn" class="btn btn-primary reset_btn">Reset</button>
+						</div>
+					</div>
+					<div id="result-container" class="result-container container">
+						<p id="resultHdr" class="h4 resultHdr">Result</p>
+						<div id="reports-table" class="reports-table">
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="footer">
+			<div class="footer_copyright">
+				<div class="copyright__heading strong"> © Bosch Limited 2019, all rights reserved </div>
+			</div>
+		</div>
+		<div id="banner_bottom" class="banner">
+			<section class="bosch-logo-strip"></section>
+		</div>
+	</div>
+</body>
+
+<html>

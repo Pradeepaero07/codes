@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
+    <script>
+        $('#data-table').DataTable({
+            ajax: {
+                url: '/test',
+                dataSrc: 'data'
+            },
+            columns: [
+                { data: 0 },
+                { data: 1 },
+                { data: 2 },
+                { data: 4 },
+                { data: 4 },
+                { data: 5 }
+            ]
+        });
+    </script>
+</head>
+
+<body>
+
+    <table id="data-table">
+        <thead>
+            <tr>
+                <th>LR Dept</th>
+                <th>Bp Dept</th>
+                <th>Details</th>
+                <th>January</th>
+                <th>February</th>
+                <th>March</th>
+                <th>April</th>
+                <th>May</th>
+                <th>June</th>
+                <th>July</th>
+                <th>August</th>
+                <th>September</th>
+                <th>October</th>
+                <th>November</th>
+                <th>December</th>
+
+            </tr>
+        </thead>
+
+    </table>
+
+
+
+</body>
+
+</html>

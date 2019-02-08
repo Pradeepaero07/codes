@@ -1,0 +1,413 @@
+@font-face {
+	font-family: "FontAwesome";
+	font-weight: normal;
+	font-style : normal;
+		   src : url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.eot?v=4.3.0");
+		   src : url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.eot?#iefix&v=4.3.0") format("embedded-opentype"),
+				 url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.woff2?v=4.3.0") format("woff2"),
+				 url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.woff?v=4.3.0") format("woff"),
+				 url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.ttf?v=4.3.0") format("truetype"),
+				 url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular") format("svg");
+}
+.bosch-logo-strip {
+    background: url(../css/images/cd_bosch_supergraphic.png) no-repeat;
+    width: 100%;
+    height: 16px;
+    background-size: 100% 16px;
+}
+.heading{
+	font-weight: bold;
+    font-size: x-large;
+    font-family: inherit;
+}
+.overall_effort{
+	margin-left:0px;
+}
+.overall_effort_table{
+	margin-left:10px;
+}
+.main_box{
+	background:white;
+	color:#306898;
+	font-size: larger;
+    font-weight: bold;
+}
+.overall_effort_table > table{
+	font-size:small;
+}
+.overall_effort_table > table > thead > tr:first-child{
+	color:white;
+	background: #306898;
+}
+.overall_effort_table > table > th,td{
+	border: 1px solid black;
+	padding: 7px 3px;
+}
+.blank_column_bottom{
+	border-bottom:none;
+	background:#fff;
+}
+.blank_column_top{
+	border-top:none;
+	background:#fff;
+}
+.nil_coloumn_color{
+	background: #f94f0e;
+}
+.align_center{
+	text-align: center;	
+}
+.align_right{
+	text-align: right;	
+}
+.year_dropdown_div{
+	padding: 10px 10px 10px 16px;
+    width: 165px;
+    height: 40px;
+}
+.dropdown_label{
+	float:left;
+}
+.year_dropdown{
+	float:right;
+}
+.header__bosch-logo {
+    min-width: 128px;
+    min-height: 63px;
+    margin-left: 20px;
+    margin-right: 10px;
+    transform: translateY(10px);
+    background-image: url("images/bosch_logo.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: contain;
+}
+#dropdown_label > label{
+	font-size:medium;
+}
+
+.bosch_icon_div{
+	float: right;
+	width: 150px;
+    height: 50px;
+    
+}
+.bosch_icon{
+	width:100%;
+	height: 70%;
+    margin-top: 10px;
+	display:block;
+	background-image: url(images/bosch_logo.jpg);
+    background-repeat: no-repeat;
+}
+.strong {
+    font-weight: 700;
+}
+.masterdata-content{
+	width:100%;
+	height:93%;
+	z-index:1;
+}
+.banner{
+	width: 100%;
+	height: 2%;
+}
+
+/*login container*/
+.login-container{
+	width: 450px;
+    height: 370px;
+    margin: auto;
+    
+}
+.login-page-content{
+	width: 100%;
+    height: 270px;
+	border-radius: 10px;
+	border: 1px solid;
+	padding: 10px;
+	box-shadow: 5px 8px 15px #888888;
+	font-size: medium;
+	border-color: grey;
+}
+.login-page-text{
+	width: 100%;
+    height: 70px;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bolder;
+}
+.user_name{
+	margin-top:33px;
+}
+.submit_div{
+	float:right;
+}
+.login-content{
+	width:100%;
+}
+
+/*Home container*/
+.home-container{
+	width: 100%;
+    height: 88%;
+    margin: 0;
+    padding-left: 0px;
+}
+.leftNavMenu{
+	height: 98.5%;
+	width: 285px;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #0000;
+	overflow-x: hidden;
+	border-right: 1px solid;
+	border-color: grey;
+	float:left;
+}
+  
+  .leftNavMenu a {
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	font-size: 25px;
+	color: #818181;
+	display: block;
+  }
+  
+  .leftNavMenu > a:hover {
+	background-color:#bcbcbd;
+	color:#fff;
+  }
+  .leftNavMenu > a:focus {
+	background-color:#bcbcbd;
+	color:#fff;
+  }
+  
+  /* Dashboard container*/
+  .dashboard {
+	/*margin-left: 160px; /* Same as the width of the sidenav */
+	font-size: 28px; /* Increased text to enable scrolling */
+	padding: 0px 0px;
+	margin-left:10px;
+	width:78%;
+	height:100%;
+	float:left;
+  }
+  .filter-container{
+	width: 100%;
+    height: 180px;
+    border-bottom: 1px solid;
+    border-color: grey;
+    background-color: #fff;
+  }
+  .content-heading{
+	  margin-top:2px;
+	  color: purple;
+	  width: 100%;
+	  height: 60px;
+  }
+  .float_left{
+	  float:left;
+  }
+  .lable_hd{
+	  font-size:large;
+  }
+  .dept-filter, .pl-filter{
+	width: 350px;
+	height: 60px;
+	float: left;
+  }
+  .dept_lbl{
+	width: 114px;
+    height: 30px;
+	float: left;
+	font-weight: bold;
+  }
+  .pl_lbl{
+	width: 135px;
+    height: 30px;
+	float: left;
+	font-weight: bold;
+  }
+  .dept_dropdown,.pl_dropdown{
+	width: 185px;
+	height: 40px;
+	float:left;
+	position: relative;
+	z-index: 999;
+  }
+  .dropdown{
+	width: 160px;
+    height: 30px;
+  }
+  .dept_dropdown > .dropdown > .btn,.pl_dropdown > .dropdown > .btn{
+	  width:160px;
+	  background-color:white;
+	  text-align: left;
+  }
+
+  .dept_dropdown > .dropdown > .single-dropdown-menu, .pl_dropdown > .dropdown > .multi-dropdown-menu{
+	margin-top: 6px;
+  }
+  .custom-carets .dropdown-toggle:after{
+	  font-family: FontAwesome;
+	  content: "\f107";
+	  float:right;
+  }
+  .custom-carets .dropdown-toggle > span.caret{
+	  display:none;
+  }
+  .list_div{
+	  width:100%;
+	  height:25px;
+  }
+  .list_div > input{
+	  float:left;
+	  text-decoration: none;
+  }
+
+  .dropdown > button{
+	color: grey;
+  }
+  .multi-dropdown-menu>li>div>label, .single-dropdown-menu>li>a {
+    display: block;
+    padding: 3px 20px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #333;
+	white-space: nowrap;
+	text-decoration: none;
+}
+.pl_dropdown > .dropdown > .multi-dropdown-menu> li{
+	padding: 0px 0px 0px 10px;
+}
+.multi-dropdown-menu> li:hover, .single-dropdown-menu> li:hover{
+	background-color:#bcbcbd;
+}
+.btn-container{
+	width: 250px;
+    height: 60px;
+    float: left;
+}
+.btn-container > .btn-primary{
+	vertical-align: top;
+}
+.reset_btn{
+	margin-left:10px;
+}
+
+.multi-dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+.single-dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+	box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+
+/*Result Container*/
+.result-container{
+	width: 100%;
+    height: 72%;
+    position: relative;
+}
+.nav-tab{
+	width: 100%;
+    margin-top: 10px;
+    height: 9%;
+    font-size: medium;
+}
+.reports-table{
+	width: 100%;
+    height: 90%;
+    border: 1px solid;
+    border-color: #ddd;
+    border-top: none;
+    position: absolute;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.reports-chart{
+	width: 100%;
+	height: 88%;
+	border: 1px solid;
+	border-color:#ddd;
+	border-top:none;
+}
+/*.reports-table-accordion > h3{
+	background-color: #204d74;
+    font-size: medium;
+}*/
+.ui-state-active{
+	background: #286090 !important;
+	border-color:#1e253a !important;
+}
+#accordion .ui-accordion-content {
+	width: 100%;
+	background-color: #f3f3f3;
+	color: #777;
+	font-size: 10pt;
+	height:85% !important;
+	line-height: 16pt;
+}
+#accordion .ui-accordion-header{
+	font-size: small !important;
+}
+
+.resultHdr{
+	font-weight: bold;
+	color:purple;
+}
+
+.ui-accordion .ui-accordion-content {
+    padding: 1em 1.2em !important;
+}
+
+.reports-table > .reports-table-accordion > .accordion-content > .tabs > .tab-content{
+	height: 86% !important;
+}
+
+/*Shanmuga*/
+.chartArea {
+	width: 55%;
+	height: 1%;
+	margin: 0 auto;
+  }
+/*Shanmuga*/
+
+

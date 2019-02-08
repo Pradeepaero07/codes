@@ -1,0 +1,637 @@
+{
+    "master-data": [{
+        "LR Dept": "",
+        "Bp-Dept": "",
+        "department_name": "ESD-PP",
+        "Year": "2019",
+        "category": "Overall",
+        "data": [{
+                "month": "Jan",
+                "Target/Demand(HC)": "199",
+                "Actual": "148.5",
+                "Open Positions": "50.5",
+                "Projected Ramp Up": "162.5"
+            },
+            {
+                "month": "Febrary",
+                "Target/Demand(HC)": "",
+                "Actual": "",
+                "Open Positions": "",
+                "Projected Ramp Up": ""
+            },
+            {
+                "month": "March",
+                "Target/Demand(HC)": "",
+                "Actual": "",
+                "Open Positions": "",
+                "Projected Ramp Up": ""
+            },
+            {
+                "month": "April",
+                "Target/Demand(HC)": "",
+                "Actual": "",
+                "Open Positions": "",
+                "Projected Ramp Up": ""
+            },
+            {
+                "month": "May",
+                "Target/Demand(HC)": "",
+                "Actual": "",
+                "Open Positions": "",
+                "Projected Ramp Up": ""
+            },
+            {
+                "month": "June",
+                "Target/Demand(HC)": "",
+                "Actual": "",
+                "Open Positions": "",
+                "Projected Ramp Up": ""
+            },
+            {
+                "month": "July",
+                "Target/Demand(HC)": "",
+                "Actual": "",
+                "Open Positions": "",
+                "Projected Ramp Up": ""
+            },
+            {
+                "month": "August",
+                "Target/Demand(HC)": "",
+                "Actual": "",
+                "Open Positions": "",
+                "Projected Ramp Up": ""
+            },
+            {
+                "month": "September",
+                "Target/Demand(HC)": "",
+                "Actual": "",
+                "Open Positions": "",
+                "Projected Ramp Up": ""
+            },
+            {
+                "month": "October",
+                "Target/Demand(HC)": "",
+                "Actual": "",
+                "Open Positions": "",
+                "Projected Ramp Up": ""
+            },
+            {
+                "month": "November",
+                "Target/Demand(HC)": "",
+                "Actual": "",
+                "Open Positions": "",
+                "Projected Ramp Up": ""
+            },
+            {
+                "month": "December",
+                "Target/Demand(HC)": "",
+                "Actual": "",
+                "Open Positions": "",
+                "Projected Ramp Up": ""
+            }
+        ],
+        "product-lines": [{
+            "RB-USS": [{
+                    "category": "Overall",
+                    "LR Dept": "CC-DA/ESU",
+                    "Bp-Dept": "",
+                    "data": [{
+                            "month": "Jan",
+                            "Target/Demand(HC)": "199",
+                            "Actual": "148.5",
+                            "Open Positions": "50.5",
+                            "Projected Ramp Up": "162.5"
+                        },
+                        {
+                            "month": "Febrary",
+                            "Target/Demand(HC)": "",
+                            "Actual": "",
+                            "Open Positions": "",
+                            "Projected Ramp Up": ""
+                        },
+                        {
+                            "month": "March",
+                            "Target/Demand(HC)": "",
+                            "Actual": "",
+                            "Open Positions": "",
+                            "Projected Ramp Up": ""
+                        },
+                        {
+                            "month": "April",
+                            "Target/Demand(HC)": "",
+                            "Actual": "",
+                            "Open Positions": "",
+                            "Projected Ramp Up": ""
+                        },
+                        {
+                            "month": "May",
+                            "Target/Demand(HC)": "",
+                            "Actual": "",
+                            "Open Positions": "",
+                            "Projected Ramp Up": ""
+                        },
+                        {
+                            "month": "June",
+                            "Target/Demand(HC)": "",
+                            "Actual": "",
+                            "Open Positions": "",
+                            "Projected Ramp Up": ""
+                        },
+                        {
+                            "month": "July",
+                            "Target/Demand(HC)": "",
+                            "Actual": "",
+                            "Open Positions": "",
+                            "Projected Ramp Up": ""
+                        },
+                        {
+                            "month": "August",
+                            "Target/Demand(HC)": "",
+                            "Actual": "",
+                            "Open Positions": "",
+                            "Projected Ramp Up": ""
+                        },
+                        {
+                            "month": "September",
+                            "Target/Demand(HC)": "",
+                            "Actual": "",
+                            "Open Positions": "",
+                            "Projected Ramp Up": ""
+                        },
+                        {
+                            "month": "October",
+                            "Target/Demand(HC)": "",
+                            "Actual": "",
+                            "Open Positions": "",
+                            "Projected Ramp Up": ""
+                        },
+                        {
+                            "month": "November",
+                            "Target/Demand(HC)": "",
+                            "Actual": "",
+                            "Open Positions": "",
+                            "Projected Ramp Up": ""
+                        },
+                        {
+                            "month": "December",
+                            "Target/Demand(HC)": "",
+                            "Actual": "",
+                            "Open Positions": "",
+                            "Projected Ramp Up": ""
+                        }
+                    ]
+                },
+                {
+                    "category": "Dev",
+                    "LR Dept": "CC-DA/ESU",
+                    "Bp-Dept": "",
+                    "data": [{
+                            "month": "Jan",
+                            "Target/Demand(HC)": "199",
+                            "Actual": "148.5",
+                            "Open Positions": "50.5",
+                            "Projected Ramp Up": "162.5"
+                        },
+                        {
+                            "month": "Febrary",
+                            "Target/Demand(HC)": "",
+                            "Actual": "",
+                            "Open Positions": "",
+                            "Projected Ramp Up": ""
+                        },
+                        {
+                            "month": "March",
+                            "Target/Demand(HC)": "",
+                            "Actual": "",
+                            "Open Positions": "",
+                            "Projected Ramp Up": ""
+                        },
+                        {
+                            "month": "April",
+                            "Target/Demand(HC)": "",
+                            "Actual": "",
+                            "Open Positions": "",
+                            "Projected Ramp Up": ""
+                        },
+                        {
+                            "month": "May",
+                            "Target/Demand(HC)": "",
+                            "Actual": "",
+                            "Open Positions": "",
+                            "Projected Ramp Up": ""
+                        },
+                        {
+                            "month": "June",
+                            "Target/Demand(HC)": "",
+                            "Actual": "",
+                            "Open Positions": "",
+                            "Projected Ramp Up": ""
+                        },
+                        {
+                            "month": "July",
+                            "Target/Demand(HC)": "",
+                            "Actual": "",
+                            "Open Positions": "",
+                            "Projected Ramp Up": ""
+                        },
+                        {
+                            "month": "August",
+                            "Target/Demand(HC)": "",
+                            "Actual": "",
+                            "Open Positions": "",
+                            "Projected Ramp Up": ""
+                        },
+                        {
+                            "month": "September",
+                            "Target/Demand(HC)": "",
+                            "Actual": "",
+                            "Open Positions": "",
+                            "Projected Ramp Up": ""
+                        },
+                        {
+                            "month": "October",
+                            "Target/Demand(HC)": "",
+                            "Actual": "",
+                            "Open Positions": "",
+                            "Projected Ramp Up": ""
+                        },
+                        {
+                            "month": "November",
+                            "Target/Demand(HC)": "",
+                            "Actual": "",
+                            "Open Positions": "",
+                            "Projected Ramp Up": ""
+                        },
+                        {
+                            "month": "December",
+                            "Target/Demand(HC)": "",
+                            "Actual": "",
+                            "Open Positions": "",
+                            "Projected Ramp Up": ""
+                        }
+                    ]
+                },
+                {
+                    "category": "Test",
+                    "LR Dept": "CC-DA/ESU",
+                    "Bp-Dept": "",
+                    "data": [{
+                            "month": "Jan",
+                            "Target/Demand(HC)": "199",
+                            "Actual": "148.5",
+                            "Open Positions": "50.5",
+                            "Projected Ramp Up": "162.5"
+                        },
+                        {
+                            "month": "Febrary",
+                            "Target/Demand(HC)": "",
+                            "Actual": "",
+                            "Open Positions": "",
+                            "Projected Ramp Up": ""
+                        },
+                        {
+                            "month": "March",
+                            "Target/Demand(HC)": "",
+                            "Actual": "",
+                            "Open Positions": "",
+                            "Projected Ramp Up": ""
+                        },
+                        {
+                            "month": "April",
+                            "Target/Demand(HC)": "",
+                            "Actual": "",
+                            "Open Positions": "",
+                            "Projected Ramp Up": ""
+                        },
+                        {
+                            "month": "May",
+                            "Target/Demand(HC)": "",
+                            "Actual": "",
+                            "Open Positions": "",
+                            "Projected Ramp Up": ""
+                        },
+                        {
+                            "month": "June",
+                            "Target/Demand(HC)": "",
+                            "Actual": "",
+                            "Open Positions": "",
+                            "Projected Ramp Up": ""
+                        },
+                        {
+                            "month": "July",
+                            "Target/Demand(HC)": "",
+                            "Actual": "",
+                            "Open Positions": "",
+                            "Projected Ramp Up": ""
+                        },
+                        {
+                            "month": "August",
+                            "Target/Demand(HC)": "",
+                            "Actual": "",
+                            "Open Positions": "",
+                            "Projected Ramp Up": ""
+                        },
+                        {
+                            "month": "September",
+                            "Target/Demand(HC)": "",
+                            "Actual": "",
+                            "Open Positions": "",
+                            "Projected Ramp Up": ""
+                        },
+                        {
+                            "month": "October",
+                            "Target/Demand(HC)": "",
+                            "Actual": "",
+                            "Open Positions": "",
+                            "Projected Ramp Up": ""
+                        },
+                        {
+                            "month": "November",
+                            "Target/Demand(HC)": "",
+                            "Actual": "",
+                            "Open Positions": "",
+                            "Projected Ramp Up": ""
+                        },
+                        {
+                            "month": "December",
+                            "Target/Demand(HC)": "",
+                            "Actual": "",
+                            "Open Positions": "",
+                            "Projected Ramp Up": ""
+                        }
+                    ]
+                }
+            ],
+            "RB-VI": [{
+                "category": "Overall",
+                "LR Dept": "",
+                "Bp-Dept": "",
+                "data": [{
+                        "month": "Jan",
+                        "Target/Demand(HC)": "199",
+                        "Actual": "148.5",
+                        "Open Positions": "50.5",
+                        "Projected Ramp Up": "162.5"
+                    },
+                    {
+                        "month": "Febrary",
+                        "Target/Demand(HC)": "",
+                        "Actual": "",
+                        "Open Positions": "",
+                        "Projected Ramp Up": ""
+                    },
+                    {
+                        "month": "March",
+                        "Target/Demand(HC)": "",
+                        "Actual": "",
+                        "Open Positions": "",
+                        "Projected Ramp Up": ""
+                    },
+                    {
+                        "month": "April",
+                        "Target/Demand(HC)": "",
+                        "Actual": "",
+                        "Open Positions": "",
+                        "Projected Ramp Up": ""
+                    },
+                    {
+                        "month": "May",
+                        "Target/Demand(HC)": "",
+                        "Actual": "",
+                        "Open Positions": "",
+                        "Projected Ramp Up": ""
+                    },
+                    {
+                        "month": "June",
+                        "Target/Demand(HC)": "",
+                        "Actual": "",
+                        "Open Positions": "",
+                        "Projected Ramp Up": ""
+                    },
+                    {
+                        "month": "July",
+                        "Target/Demand(HC)": "",
+                        "Actual": "",
+                        "Open Positions": "",
+                        "Projected Ramp Up": ""
+                    },
+                    {
+                        "month": "August",
+                        "Target/Demand(HC)": "",
+                        "Actual": "",
+                        "Open Positions": "",
+                        "Projected Ramp Up": ""
+                    },
+                    {
+                        "month": "September",
+                        "Target/Demand(HC)": "",
+                        "Actual": "",
+                        "Open Positions": "",
+                        "Projected Ramp Up": ""
+                    },
+                    {
+                        "month": "October",
+                        "Target/Demand(HC)": "",
+                        "Actual": "",
+                        "Open Positions": "",
+                        "Projected Ramp Up": ""
+                    },
+                    {
+                        "month": "November",
+                        "Target/Demand(HC)": "",
+                        "Actual": "",
+                        "Open Positions": "",
+                        "Projected Ramp Up": ""
+                    },
+                    {
+                        "month": "December",
+                        "Target/Demand(HC)": "",
+                        "Actual": "",
+                        "Open Positions": "",
+                        "Projected Ramp Up": ""
+                    },
+                    {
+                        "category": "Dev",
+                        "LR Dept": "CC-DA/ESI",
+                        "Bp-Dept": "",
+                        "data": [{
+                                "month": "Jan",
+                                "Target/Demand(HC)": "199",
+                                "Actual": "148.5",
+                                "Open Positions": "50.5",
+                                "Projected Ramp Up": "162.5"
+                            },
+                            {
+                                "month": "Febrary",
+                                "Target/Demand(HC)": "",
+                                "Actual": "",
+                                "Open Positions": "",
+                                "Projected Ramp Up": ""
+                            },
+                            {
+                                "month": "March",
+                                "Target/Demand(HC)": "",
+                                "Actual": "",
+                                "Open Positions": "",
+                                "Projected Ramp Up": ""
+                            },
+                            {
+                                "month": "April",
+                                "Target/Demand(HC)": "",
+                                "Actual": "",
+                                "Open Positions": "",
+                                "Projected Ramp Up": ""
+                            },
+                            {
+                                "month": "May",
+                                "Target/Demand(HC)": "",
+                                "Actual": "",
+                                "Open Positions": "",
+                                "Projected Ramp Up": ""
+                            },
+                            {
+                                "month": "June",
+                                "Target/Demand(HC)": "",
+                                "Actual": "",
+                                "Open Positions": "",
+                                "Projected Ramp Up": ""
+                            },
+                            {
+                                "month": "July",
+                                "Target/Demand(HC)": "",
+                                "Actual": "",
+                                "Open Positions": "",
+                                "Projected Ramp Up": ""
+                            },
+                            {
+                                "month": "August",
+                                "Target/Demand(HC)": "",
+                                "Actual": "",
+                                "Open Positions": "",
+                                "Projected Ramp Up": ""
+                            },
+                            {
+                                "month": "September",
+                                "Target/Demand(HC)": "",
+                                "Actual": "",
+                                "Open Positions": "",
+                                "Projected Ramp Up": ""
+                            },
+                            {
+                                "month": "October",
+                                "Target/Demand(HC)": "",
+                                "Actual": "",
+                                "Open Positions": "",
+                                "Projected Ramp Up": ""
+                            },
+                            {
+                                "month": "November",
+                                "Target/Demand(HC)": "",
+                                "Actual": "",
+                                "Open Positions": "",
+                                "Projected Ramp Up": ""
+                            },
+                            {
+                                "month": "December",
+                                "Target/Demand(HC)": "",
+                                "Actual": "",
+                                "Open Positions": "",
+                                "Projected Ramp Up": ""
+                            }
+                        ]
+                    },
+                    {
+                        "category": "Test",
+                        "LR Dept": "CC-DA/ETV3",
+                        "Bp-Dept": "",
+                        "data": [{
+                                "month": "Jan",
+                                "Target/Demand(HC)": "199",
+                                "Actual": "148.5",
+                                "Open Positions": "50.5",
+                                "Projected Ramp Up": "162.5"
+                            },
+                            {
+                                "month": "Febrary",
+                                "Target/Demand(HC)": "",
+                                "Actual": "",
+                                "Open Positions": "",
+                                "Projected Ramp Up": ""
+                            },
+                            {
+                                "month": "March",
+                                "Target/Demand(HC)": "",
+                                "Actual": "",
+                                "Open Positions": "",
+                                "Projected Ramp Up": ""
+                            },
+                            {
+                                "month": "April",
+                                "Target/Demand(HC)": "",
+                                "Actual": "",
+                                "Open Positions": "",
+                                "Projected Ramp Up": ""
+                            },
+                            {
+                                "month": "May",
+                                "Target/Demand(HC)": "",
+                                "Actual": "",
+                                "Open Positions": "",
+                                "Projected Ramp Up": ""
+                            },
+                            {
+                                "month": "June",
+                                "Target/Demand(HC)": "",
+                                "Actual": "",
+                                "Open Positions": "",
+                                "Projected Ramp Up": ""
+                            },
+                            {
+                                "month": "July",
+                                "Target/Demand(HC)": "",
+                                "Actual": "",
+                                "Open Positions": "",
+                                "Projected Ramp Up": ""
+                            },
+                            {
+                                "month": "August",
+                                "Target/Demand(HC)": "",
+                                "Actual": "",
+                                "Open Positions": "",
+                                "Projected Ramp Up": ""
+                            },
+                            {
+                                "month": "September",
+                                "Target/Demand(HC)": "",
+                                "Actual": "",
+                                "Open Positions": "",
+                                "Projected Ramp Up": ""
+                            },
+                            {
+                                "month": "October",
+                                "Target/Demand(HC)": "",
+                                "Actual": "",
+                                "Open Positions": "",
+                                "Projected Ramp Up": ""
+                            },
+                            {
+                                "month": "November",
+                                "Target/Demand(HC)": "",
+                                "Actual": "",
+                                "Open Positions": "",
+                                "Projected Ramp Up": ""
+                            },
+                            {
+                                "month": "December",
+                                "Target/Demand(HC)": "",
+                                "Actual": "",
+                                "Open Positions": "",
+                                "Projected Ramp Up": ""
+                            }
+                        ]
+                    }
+                ]
+            }]
+        }]
+    }]
+}
